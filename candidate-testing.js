@@ -60,6 +60,8 @@ Correct Answer: ${correctAnswers[i - 1]}
 >>> Status: ${status}`
   console.log(conclusion);
 
+return gradeQuiz;
+
 }
 
 function runProgram() {

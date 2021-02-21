@@ -54,9 +54,9 @@ Correct Answer: ${correctAnswers[i - 1]}
     status = "PASSED";
   }
 
-  let percentage = (grade / questions.length) * 100;
+  let gradeQuiz = (grade / questions.length) * 100;
 
-  let conclusion =`>>> Overall Grade: ${percentage}% ( ${grade} of 5 responses corerect)
+  let conclusion =`>>> Overall Grade: ${gradeQuiz}% ( ${grade} of 5 responses corerect)
 >>> Status: ${status}`
   console.log(conclusion);
 
